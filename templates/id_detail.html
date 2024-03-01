@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FaceOnLive OpenKYC</title>
+    <link rel="shortcut icon" href="/static/img/favicon.ico">
+
+    <!-- material icons -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="/static/vendor/mdbootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="/static/vendor/mdbootstrap/mdb.min.css" rel="stylesheet">
+    <!-- other css library based on page -->
+    <!-- global css -->
+    <link href="/static/ui/scss/bundle.min.css" rel="stylesheet">
+    <!-- css based on page -->
+    <link rel="stylesheet" href="/static/ui/scss/ocr_detail.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- Page Loader -->
+        <div class="loader">
+            <div class="spinner-border" role="status">
+                <span class="sr-only"></span>
+            </div>
+        </div>
+        <!-- Header -->
+        <header>
+
+            <div class="header-left">
+                <div class="container">
+
+                    <a href="/id_file/" class="btn btn-link"><span
+                            class="material-icons-outlined">arrow_back_ios</span></a>
+
+
+                </div>
+            </div>
+            <div class="header-middle">
+                <div class="container">
+
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="container">
+
+                </div>
+            </div>
+
+        </header>
+        <!-- Content -->
+        <main>
+
+
+            <div class="row page-header">
+                <div class="col-lg-12 text-center">
+                    Document Information
+                </div>
+            </div>
+            <div class="row page-content">
+                <div class="col-lg-12" id="result-content"></div>
+            </div>
+            <div class="row page-footer">
+                <div class="col-6">
+                    <a href="/id_file/" class="btn btn-outline-primary btn-side px-3">Re-submit</a>
+                </div>
+                <div class="col-6">
+                    <a href="/fr_file/" class="btn btn-primary btn-side px-3">Proceed to FR</a>
+                </div>
+            </div>
+
+        </main>
+        <!-- Footer -->
+        <footer>
+
+            <div class="container powered">
+                <img src="/static/img/faceonlive.png" width="42" />&emsp;
+                <div>
+                    <span class="text-c-neutral">Powered by</span><br />
+                    <a href="https://www.faceonlive.com" target="_blank" rel="noopener noreferrer">FaceOnLive</a>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+    <!-- django js translation -->
+    <script type="text/javascript" src="/static/jsi18n.js"></script>
+    <!-- data js -->
+    <script id="ocr-result" type="application/json">{{ocr_result|safe}}</script>
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="/static/vendor/mdbootstrap/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="/static/vendor/mdbootstrap/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="/static/vendor/mdbootstrap/bootstrap.min.js.download"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="/static/vendor/mdbootstrap/mdb.min.js.download"></script>
+    <!-- other js library based on page -->
+
+    <!-- global js -->
+    <script type="text/javascript" src="/static/ui/js/base.js"></script>
+    <!-- js based on page -->
+    <script type="text/javascript" src="/static/ui/js/ocr_detail.js"></script>
+</body>
+
+</html>

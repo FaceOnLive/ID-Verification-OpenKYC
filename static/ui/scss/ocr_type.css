@@ -1,0 +1,7 @@
+body > .wrapper > header {
+    margin-top: 24px;
+}
+
+.btn.btn-block {
+    height: 80px;
+}

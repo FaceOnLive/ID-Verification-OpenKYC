@@ -1,0 +1,100 @@
+.croppie-container .cr-boundary {
+    background-color: rgba(0, 0, 0, .6);
+}
+.croppie-container .cr-boundary .timer-tick {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+.croppie-container .cr-boundary #text-preview {
+    position: absolute;
+    top: 52px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+.croppie-container .cr-boundary #rotate-container {
+    position: absolute;
+    bottom: 28px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+.croppie-container .cr-boundary #btn-rotate {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+}
+.croppie-container .cr-boundary #btn-rotate span {
+    line-height: 56px;
+}
+.croppie-container .cr-slider-wrap {
+    display: none;
+}
+.croppie-container .cr-viewport {
+    border: none;
+}
+.croppie-container .cr-viewport .guide-top-right-1 {
+    border: 1.5px solid #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 88%;
+}
+.croppie-container .cr-viewport .guide-top-right-2 {
+    border: 1.5px solid #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 85%;
+}
+.croppie-container .cr-viewport .guide-bottom-right-1 {
+    border: 1.5px solid #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 88%;
+}
+.croppie-container .cr-viewport .guide-bottom-right-2 {
+    border: 1.5px solid #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 85%;
+}
+.croppie-container .cr-viewport .guide-top-left-1 {
+    border: 1.5px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 88%;
+}
+.croppie-container .cr-viewport .guide-top-left-2 {
+    border: 1.5px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 85%;
+}
+.croppie-container .cr-viewport .guide-bottom-left-1 {
+    border: 1.5px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 88%;
+}
+.croppie-container .cr-viewport .guide-bottom-left-2 {
+    border: 1.5px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 85%;
+}
