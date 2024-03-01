@@ -1,0 +1,23 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
+{
+	"name": "Python 3",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/python:0-3.11", 
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [7860],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "pip3 install --user -r requirements.txt", 
+
+  "secrets": {
+  "API_KEY": {
+    "description": "X-RapidAPI-Key for FaceOnLive RapidAPI Endpoints (Free). (Subscribe APIs for ID DOcument Recognition, Face Liveness Detection, Face Recognition)",
+    "documentationUrl": "https://rapidapi.com/organization/faceonlive-inc"
+  }
+}
+}
