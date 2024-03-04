@@ -13,7 +13,7 @@
     [ID Document Recognition](https://rapidapi.com/faceonlive-inc-faceonlive-inc-default/api/id-document-recognition2/)  
     [Face Liveness Detection](https://rapidapi.com/faceonlive-inc-faceonlive-inc-default/api/face-liveness-detection3/)  
     [Face Recognition](https://rapidapi.com/faceonlive-inc-faceonlive-inc-default/api/face-recognition26/)
-2.  Set X-RapidAPI-Key as enrironment variable named API_KEY.
+2.  Set X-RapidAPI-Key as environment variable named API_KEY.
 3.  Install python packages from requirements.txt and run "python app.py".
 	```sh
 	export API_KEY=[X-RapidAPI-Key Here]	
