@@ -7,6 +7,14 @@
 - Run project on Github Codespace (Click following button and when container ready, run "python app.py"
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/FaceOnLive/OpenKYC)
 
+
+## In progress..
+Full On-premise Backend part including ID Document Recognition, Face Liveness Detection and Face Recognition is still in progress (Open-version).
+
+In the meantime, you can follow below steps to use our Free RapidAPI endpoints.
+
+To use our Pro-version of on-premise SDKs, please contact us.
+
 ## Steps to setup project (using Free FaceOnLive RapidAPI Endpoints)
 
 1. Please subscribe following 3 RapidAPIs(Free) and get X-RapidAPI-Key there.  
@@ -20,6 +28,7 @@
 	pip install -r requirements.txt
 	python app.py
 	```
+
 ## Contact
 
 Join our  <a target="_blank" href="https://join.slack.com/t/faceonlive/shared_invite/zt-2drx19c5t-vQsR4TUGPD8oL7i7BXdKZA"><img src="https://img.shields.io/badge/slack-faceonlive-blue.svg?logo=slack" alt="www.faceonlive.com"></a> to discuss project and get support.
