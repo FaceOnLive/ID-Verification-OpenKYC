@@ -1,5 +1,14 @@
 <h1 align="center">Welcome to OpenKYC Project!</h1>
 <p align="center">Open to everyone, easy to customize, free to build Open eKYC Project</p>
+<div align="center">
+  <a href="https://join.slack.com/t/faceonlive/shared_invite/zt-2drx19c5t-vQsR4TUGPD8oL7i7BXdKZA">Slack</a>
+    ·
+   <a href="https://www.faceonlive.com/">Website</a>
+    ·
+    <a href="https://www.huggingface.co/FaceOnLive">Hugging Face</a>
+    ·
+    <a href="mailto:contact@faceonlive.com">Contact</a>
+</div>
 
 ## Try It Yourself
 - Demo hosted on HuggingFace Space: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/FaceOnLive/OpenKYC)
